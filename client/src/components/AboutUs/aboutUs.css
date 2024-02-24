@@ -1,0 +1,278 @@
+.aboutus{
+    overflow-x: hidden;
+    cursor: default;
+
+}
+.aboutus h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffde7a;
+}
+.outerBlock{
+    max-width: 1240px;
+    background: #142d36;
+    border-radius: 60px;
+    display: flex;
+    position: relative;
+    margin: 27px auto 176px;
+    box-sizing: border-box;
+}
+.leftImage{
+    position: absolute;
+    top: 68px;
+    margin-left: -190px;
+    box-sizing: border-box;
+    display: block;
+    height: 283.400px;
+    width: 318px;
+}
+
+
+.leftImage > img{
+    height: 277px;
+    width: 318px;
+    overflow: hidden;
+}
+.middleBox{
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Chillax-Variable,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.rightImage{
+    position: absolute;
+    bottom: -54px;
+    right: -390px;
+    box-sizing: border-box;
+    display: block;
+    height: 450.400px;
+    width: 561px;
+}
+.rightImage > img{
+    width: 561px;
+    height: 444px;
+    overflow-x: clip;
+    box-sizing: border-box;
+}
+
+
+.FounderBio{
+    max-width: 1240px;
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+.imagesDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.amarImage {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    left: 10rem;
+    cursor: pointer;
+    border: 5px solid #191818;
+    transition: all 0.3s ease-in-out;
+}
+
+.amarImage > img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.hoveredAmar > img{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+.hoveredAmar{
+    border: 5px solid #74C4BA;
+}
+
+.aniketImage {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+    right: 4rem;
+    cursor: pointer;
+    border: 5px solid #191818;
+    transition: all .3s ease-in-out;
+}
+
+.aniketImage> img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.hoveredAniket > img{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+.hoveredAniket{
+    border: 5px solid #845CA7;
+}
+
+.anshImage{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+    left: 10rem;
+    cursor: pointer;
+    border: 5px solid #191818;
+    transition: all .3s ease-in-out;
+}
+
+.anshImage > img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.hoveredAnsh > img{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+.hoveredAnsh{
+    border: 5px solid #F8C630;
+}
+
+.content{
+    float: right;
+    width: 800px;
+    margin: auto ;
+    margin-bottom: 17rem;
+    position: relative;
+    left: 80px;
+}
+.content > p{
+    color: #f9d7ae;
+    font-family: Chillax-Variable,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    .aboutus {
+      margin: 0 2rem; 
+    }
+  
+    .outerBlock {
+      margin: 2rem auto 7rem; 
+    }
+  
+    .leftImage {
+      top: 2rem; 
+      margin-left: -25%; 
+    }
+  
+    .middleBox {
+      padding: 1.5rem; 
+      border-radius: 1.25rem; 
+      margin-left: -2rem; 
+    }
+  
+    .rightImage {
+      bottom: -3rem; 
+      right: -45%; 
+    }
+  
+    .aniketImage {
+        left: 5%; 
+      }
+    
+      .content {
+        width: 80%; 
+        margin-left: 15rem; 
+        margin-bottom: 17rem; 
+        right: 5%; 
+        left: unset; 
+      }
+  }
+  
+
+  @media (min-width: 319px) and (max-width: 480px) {
+    .outerBlock {
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem 1rem;
+    }
+  
+    .rightImage{
+        position: absolute;
+        bottom: -54px;
+        right: -390px;
+        box-sizing: border-box;
+        display: block;
+        height: 450.400px;
+        width: 561px;
+    }
+
+    .leftImage{
+        position: absolute;
+        top: 68px;
+        margin-left: -550px;
+        box-sizing: border-box;
+        display: block;
+        height: 283.400px;
+        width: 318px;
+    }
+    
+    .aniketImage, .amarImage, .anshImage {
+      width: 150px;
+      height: 150px;
+      margin: 0 5px; 
+    }
+  
+    .aniketImage {
+        left: 5%; 
+      }
+    .content {
+      position: static;
+      float: none;
+      width: auto;
+      margin: 1rem 2rem;
+    }
+  
+    .FounderBio {
+      flex-direction: column;
+    }
+    .middleBox {
+        padding: 1.5rem; 
+        border-radius: 1.25rem; 
+        margin: auto; 
+      }
+  }
+  
+  
+  
+  
